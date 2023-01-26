@@ -37,7 +37,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Shachah Concert<a name="about-project"></a>
+# 📖 Todolist App<a name="about-project"></a>
 
 **Shachah** is one of the interesting projects I have had to work on as a developer. This project was developed to enhance my es6 implementation skills.
 ## 🛠 Built With <a name="built-with"> Html and CSS</a>
