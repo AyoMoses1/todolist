@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+div.header {
+  padding: 20px 10px;
+  color: rgb(142, 142, 142);
+}
+
+ul.list__placeholder {
+  list-style-type: none;
+  margin: 0;
+}
+
+ul.list__placeholder .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul.list__placeholder input.add_input {
+  width: 90%;
+  border: none;
+  padding: 20px 0;
+}
+
+ul.list__placeholder li input {
+  margin-right: 1.2rem;
+  cursor: pointer;
+}
+
+ul.list__placeholder input:focus {
+  outline: none;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(207, 201, 201);
+  padding: 0 10px;
+}
+
+button.clear_btn {
+  margin: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: rgb(230, 230, 230);
+  border: 1px solid rgb(207, 201, 201);
+  color: grey;
+  font-size: 1.01rem;
+}
+
+ul.list__placeholder input.add_input::placeholder {
+  font-style: italic;
+  color: rgb(207, 201, 201);
+  margin-bottom: 0;
+}
+
+ul.list__placeholder li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  border: 1px solid rgb(207, 201, 201);
+}
+
+ul.list__placeholder li i {
+  cursor: pointer;
+}
