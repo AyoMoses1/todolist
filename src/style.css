@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  padding: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+ul.list__placeholder {
+  list-style-type: none;
+}
+
+ul.list__placeholder li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  border: 1px solid rgb(207, 201, 201);
+  margin-bottom: 20px;
+}
+
+ul.list__placeholder li input {
+  margin-right: 1.2rem;
+  cursor: pointer;
+}
+
+ul.list__placeholder li i {
+  cursor: pointer;
+}
