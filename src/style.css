@@ -9,6 +9,10 @@ body {
   font-style: normal;
 }
 
+h1 {
+  text-align: center;
+}
+
 ul.list__placeholder {
   list-style-type: none;
 }
