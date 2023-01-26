@@ -11,8 +11,6 @@
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -35,9 +33,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
-
-# 📖 Shachah Concert<a name="about-project"></a>
+# 📖 Todolist App<a name="about-project"></a>
 
 **Shachah** is one of the interesting projects I have had to work on as a developer. This project was developed to enhance my es6 implementation skills.
 ## 🛠 Built With <a name="built-with"> Html and CSS</a>
@@ -53,7 +49,6 @@
   </ul>
 </details>
 
-<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
@@ -63,20 +58,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-<!-- - [Live Demo Link](https://ayomoses1.github.io/Shachah/) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
@@ -95,7 +85,7 @@ Clone this repository to your desired folder:
 
 
 ```sh
-  cd your-folder
+  cd todolist
   git clone https://github.com/AyoMoses1/todolist.git
 ```
 
@@ -106,7 +96,7 @@ Install this project with:
 
 
 ```sh
-  cd my-project
+  cd todolist
   node version 16
 ```
 
@@ -115,23 +105,10 @@ Install this project with:
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-```sh
-  rails server
+
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-```sh
-  bin/rails test test/models/article_test.rb
+  npm start
 ```
---->
 
 ### Deployment
 
@@ -145,8 +122,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
 ## 👥 Authors <a name="authors"></a>
 
 👤 **Author**
@@ -158,7 +133,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -168,7 +142,6 @@ You can deploy this project using:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -178,7 +151,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
@@ -186,19 +158,14 @@ If you like this project, please support by contributing to the codebase
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Cindy Shin for the awesome and inspiring design idea of this project. The design guidelines for this project was gotten from one of her most profound designs for a conference. Please find here a link to the <a href="https://creativecommons.org/licenses/by-nc/4.0/legalcode">license</a>, <a href="https://creativecommons.org/licenses/by-nc/4.0/#">disclaimer</a> and a link to the original <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">design</a>
+I would like to thank the entire microverse team for the inspiration h=behinf this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
-
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
 - **Will there be a desktop version of this project**
 
   - Yes, there will certainly be a desktop version to aid desktop users in having a friendly UX experience on the website
@@ -206,7 +173,6 @@ I would like to thank Cindy Shin for the awesome and inspiring design idea of th
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
