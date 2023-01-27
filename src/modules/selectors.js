@@ -1,7 +1,4 @@
 const listPlaceholder = document.querySelector('.list__placeholder');
-const inputForm = document.querySelector('form')
+const inputForm = document.querySelector('form');
 
-
-
-export {listPlaceholder, inputForm}
-
+export { listPlaceholder, inputForm };

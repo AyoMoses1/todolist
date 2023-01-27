@@ -39,13 +39,18 @@ input.add_input {
   padding: 20px 0;
 }
 
-ul.list__placeholder li input {
+input:focus {
+  outline: none;
+}
+
+ul.list__placeholder li input:first-child {
   margin-right: 1.2rem;
   cursor: pointer;
 }
 
-input:focus {
-  outline: none;
+ul.list__placeholder li input:last-child {
+  border: none;
+  font-size: 1.2rem;
 }
 
 form {
@@ -85,7 +90,7 @@ ul.list__placeholder li i {
 }
 
 [contenteditable] {
-  outline: 0px solid transparent;
+  outline: 0 solid transparent;
 }
 
 .yellow {
