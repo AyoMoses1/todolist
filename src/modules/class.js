@@ -7,13 +7,13 @@ class Tasks {
   }
 
   createTask(task) {
-    addTask(task, this.tasks);
+    addTask(task, this);
 
     this.render();
   }
 
   deleteTask(index) {
-    removeTask(index, this.tasks);
+    removeTask(index, this);
     this.render();
   }
 
@@ -31,7 +31,7 @@ class Tasks {
       taskItem.innerHTML = `
                       <div>
                         <input type="checkbox" id="check" name="task_check">
-                        <input type="text" class="task-input" value=${task.description}>
+                        <input type="text" class="task-input" value="${task.description}">
                       </div>
                         <i class="fa-solid fa-ellipsis-vertical del-icon"></i>  
                       `;
