@@ -27,13 +27,13 @@ ul.list__placeholder {
   margin: 0;
 }
 
-ul.list__placeholder .header {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-ul.list__placeholder input.add_input {
+input.add_input {
   width: 90%;
   border: none;
   padding: 20px 0;
@@ -44,7 +44,7 @@ ul.list__placeholder li input {
   cursor: pointer;
 }
 
-ul.list__placeholder input:focus {
+input:focus {
   outline: none;
 }
 
@@ -66,7 +66,7 @@ button.clear_btn {
   font-size: 1.01rem;
 }
 
-ul.list__placeholder input.add_input::placeholder {
+input.add_input::placeholder {
   font-style: italic;
   color: rgb(207, 201, 201);
   margin-bottom: 0;
@@ -82,4 +82,12 @@ ul.list__placeholder li {
 
 ul.list__placeholder li i {
   cursor: pointer;
+}
+
+[contenteditable] {
+  outline: 0px solid transparent;
+}
+
+.yellow {
+  background: yellow;
 }
