@@ -1,5 +1,6 @@
 import { addTask, editTasks, removeTask } from './controllers.js';
 import { listPlaceholder, inputForm } from './selectors.js';
+import { clearCompleted, statusUpdate } from './status.js';
 
 class Tasks {
   constructor() {
@@ -8,18 +9,29 @@ class Tasks {
 
   createTask(task) {
     addTask(task, this);
-
+    window.location.reload();
     this.render();
   }
 
   deleteTask(index) {
     removeTask(index, this);
+    window.location.reload();
     this.render();
   }
 
   updateTask(index, value) {
     editTasks(this.tasks, index, value);
     this.render();
+  }
+
+  updateStatus(index) {
+    statusUpdate(index, this);
+    window.location.reload();
+  }
+
+  bulkDelete(arr) {
+    clearCompleted(arr, this);
+    window.location.reload();
   }
 
   render() {
@@ -30,7 +42,7 @@ class Tasks {
       taskItem.setAttribute('data-index', task.index);
       taskItem.innerHTML = `
                       <div>
-                        <input type="checkbox" id="check" name="task_check">
+                        <input type="checkbox" class="check" id="${task.index}"name="task_check">
                         <input type="text" class="task-input" value="${task.description}">
                       </div>
                         <i class="fa-solid fa-ellipsis-vertical del-icon"></i>  
@@ -47,9 +59,26 @@ class Tasks {
 
 const todos = new Tasks();
 
-window.onload = todos.render();
+todos.render();
 
 const inputs = document.querySelectorAll('.task-input');
+
+const checkboxes = document.querySelectorAll('.check');
+
+const deleteButton = document.querySelector('.clear_btn');
+
+deleteButton.addEventListener('click', () => {
+  const tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+  todos.bulkDelete(tasks);
+});
+
+checkboxes.forEach((checkbox, i) => {
+  checkbox.checked = todos.tasks[i].completed;
+  checkbox.addEventListener('change', () => {
+    const index = checkbox.getAttribute('id');
+    todos.updateStatus(Number(index));
+  });
+});
 
 inputs.forEach((input) => {
   input.addEventListener('keypress', (event) => {
