@@ -59,7 +59,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="https://ayomoses1.github.io/todolist/dist"></a>
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
